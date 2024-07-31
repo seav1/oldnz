@@ -272,7 +272,7 @@ stderr_logfile=/dev/null
 stdout_logfile=/dev/null
 
 [program:agent]
-command=$WORK_DIR/nezha-agent -s localhost:$GRPC_PORT -p $LOCAL_TOKEN
+command=$WORK_DIR/nezha-agent -s localhost:$GRPC_PORT -p --disable-auto-update --disable-force-update $LOCAL_TOKEN
 autostart=true
 autorestart=true
 stderr_logfile=/dev/null
