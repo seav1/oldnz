@@ -1,3 +1,9 @@
+```
+jfu888/oldnz
+
+变量dver指定面板版本，默认v0.17.5
+变量aver指定客户端板本，默认v0.17.5
+```
 # Argo-Nezha-Service-Container
 
 使用 Argo 隧道的哪吒服务端
